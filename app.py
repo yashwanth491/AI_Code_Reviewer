@@ -50,3 +50,5 @@ if st.button("Review Code"):
             st.markdown(feedback)  
     else:
         st.warning("⚠️ Please enter some Python code before submitting.")
+st.markdown("---")  # Adds a separator line
+st.markdown("👨‍💻 Made by **Yashwanth**")
