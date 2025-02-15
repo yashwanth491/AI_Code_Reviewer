@@ -50,5 +50,5 @@ if st.button("Review Code"):
             st.markdown(feedback)  
     else:
         st.warning("⚠️ Please enter some Python code before submitting.")
-st.markdown("---")  # Adds a separator line
-st.markdown("👨‍💻 Made by **Yashwanth**")
+st.markdown("<br><hr><h3 style='text-align: center;'>👨‍💻 Made by <b>Yashwanth</b></h3><hr><br>", unsafe_allow_html=True)
+
