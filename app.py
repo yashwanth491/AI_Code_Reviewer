@@ -50,5 +50,6 @@ if st.button("Review Code"):
             st.markdown(feedback)  
     else:
         st.warning("⚠️ Please enter some Python code before submitting.")
-st.markdown("<hr><h5 style='text-align: center;'>👨‍💻 Made by <b>Yashwanth</b></h5><hr>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 16px;'>👨‍💻 Made by <b>Yashwanth</b></p>", unsafe_allow_html=True)
+
 
