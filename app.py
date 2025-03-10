@@ -8,7 +8,7 @@ API_KEY = st.secrets["general"]["API_KEY"]
 if not API_KEY:
     st.error("⚠️ API Key not found. Please set it in `.streamlit/secrets.toml`.")
     st.stop()
-
+    
 genai.configure(api_key=API_KEY)
 
 sys_prompt = """You are an advanced Python code reviewer. Your task is to analyze the given Python code, 
